@@ -158,7 +158,7 @@ padding: 24px 0;
 .benefits-list .li {
     width: calc((100% - 72px) / 4);
 }
-.first-benefits-item {
+.benefits-item {
 
 }
 .title-three {
@@ -195,6 +195,7 @@ padding: 24px 0;
     width: calc((100% - 72px) / 4);
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
+    border-top: none;
 }
 .members-cards {
     padding: 32px 0;
@@ -215,7 +216,7 @@ padding: 24px 0;
 .examples-list .li {
     width: calc((100% - 48px) / 3);
 }
-.examples-list-first-item {
+.examples-list-item {
 
 }
 .services-cards {
