@@ -106,8 +106,8 @@ padding: 24px 0;
     text-align: center;
 }
 .main-title {
-        margin-right: auto;
-        margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -166,8 +166,6 @@ padding: 24px 0;
 .benefits-list {
     display: flex;
     gap: 24px;
-}
-.benefits-item {
 }
 .title-three {
     color: #2e2f42;
