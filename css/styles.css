@@ -32,7 +32,6 @@ body {
 }
 .page-header {
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 156px;
 }
 .page-header .container {
     display: flex;
@@ -67,7 +66,6 @@ body {
 }
 .link {
     color: #2e2f42;
-    width: calc((100% - 80px) / 3);
     padding: 24px 0;
     display: block;
 }
@@ -88,8 +86,7 @@ body {
 }
 .address-link {
 color: #434455;
-width: calc((100% - 40px) / 2);
-display: inline;
+display: block;
 padding: 24px 0;
 }
 .address-link:hover, .address-link:focus {
@@ -102,9 +99,11 @@ padding: 24px 0;
 .hero-section {
     color: #ffffff;
     background-color: #2e2f42;
-    text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
 }
 .main-title {
     font-weight: 700;
@@ -112,6 +111,8 @@ padding: 24px 0;
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .the-button {
     cursor: pointer;
@@ -121,11 +122,13 @@ padding: 24px 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    display: block;
     height: 56px;
     min-width: 169px;
     margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 16px 32px;
-    display: block;
     border: none;
     border-radius: 4px;
 }
@@ -165,7 +168,6 @@ padding: 24px 0;
     gap: 24px;
 }
 .benefits-item {
-width: calc((100% - 72px) / 4);
 }
 .title-three {
     color: #2e2f42;
@@ -185,12 +187,11 @@ width: calc((100% - 72px) / 4);
     width: 264px;
 }
 .team {
-    margin-bottom: 72px;
+    background-color: #f4f4fd;
 }
 .members-list {
     display: flex;
     gap: 24px;
-    margin-top: 72px;
 }
 .members-list:first-child {
     width: calc((100% - 72px) / 4);
@@ -201,7 +202,6 @@ width: calc((100% - 72px) / 4);
     width: calc((100% - 72px) / 4);
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
-    border-top: none;
 }
 .members-cards {
     padding: 32px 0;
@@ -217,7 +217,6 @@ width: calc((100% - 72px) / 4);
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    margin-top: 72px;
 }
 .examples-list-item {
 width: calc((100% - 48px) / 3);
@@ -241,7 +240,6 @@ border-top: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 8px;
 }
 .bottom-section {
     background-color: #2e2f42;
@@ -258,6 +256,5 @@ border-top: none;
     color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 264px;
-    margin-top: 16px;
+    max-width: 264px;
 }
