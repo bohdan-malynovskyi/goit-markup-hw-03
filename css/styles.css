@@ -143,6 +143,7 @@ padding: 24px 0;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .visually-hidden {
     color: #2e2f42;
@@ -186,7 +187,6 @@ padding: 24px 0;
 }
 .team {
     background-color: #f4f4fd;
-    margin-bottom: 72px;
 }
 .members-list {
     display: flex;
