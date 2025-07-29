@@ -186,6 +186,7 @@ padding: 24px 0;
 }
 .team {
     background-color: #f4f4fd;
+    margin-bottom: 72px;
 }
 .members-list {
     display: flex;
